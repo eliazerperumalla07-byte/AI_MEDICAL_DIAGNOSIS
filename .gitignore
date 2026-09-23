@@ -1,0 +1,34 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter / Colab
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Large dataset archives (>50MB, download on demand via data/download_datasets.py)
+data/*.npz
+data/chestmnist/
+data/dermamnist/
+data/retinamnist/
+
+# Streamlit config / cache
+.streamlit/
+
+# Training checkpoint backups (keep best weights)
+*.tmp
+*.log
